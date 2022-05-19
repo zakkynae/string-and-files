@@ -8,6 +8,8 @@ var subString = Console.ReadLine();
 Console.WriteLine($"Число вхождений буквосочетания {subString} - {CountOccurrences(phrase, subString)}");
 Console.WriteLine($"Кол-во слов в предложении - {CountWords(phrase)}");
 Console.WriteLine($"Кол-во гласных в предложении - {CountVowels(phrase)}");
+Console.WriteLine($"Верно ли, что в предложении есть 5 подряд идущих одинаковых символов? {ContainsFiveLetters(phrase)}");
+Console.WriteLine($"Фраза в обратном порядке - {FlipText(phrase)}");
 
 double CountPercent(string text, char symbol)
 {
@@ -18,7 +20,7 @@ double CountPercent(string text, char symbol)
         if(Char.ToLower(letter) == Char.ToLower(symbol)) count++;
         if(Char.IsLetter(letter)) length++;
     }
-    return Math.Round(100 * (double)count / length);
+    return 100 * count / length;
 }
 
 int CountOccurrences(string text, string subString) => (text.Length - text.ToLower().Replace(subString.ToLower(),
@@ -34,5 +36,24 @@ int CountVowels(string text)
         if(vowelLetters.Contains(Char.ToLower(letter))) count++;
     return count;
 }
+
+string ContainsFiveLetters(string text)
+{
+    var count = 1;
+    for(int i = 0; i < text.Length - 1; i++)
+    {
+        if (count == 5) break;
+        if (Char.ToLower(text[i]) == Char.ToLower(text[i + 1])) count++;
+        else count = 1;
+    }
+    return count < 5 ? "Не правда" : "Правда";
+}
+
+string FlipText(string text)
+{
+    var reverseText = text.Split(' ').Reverse();
+    return String.Join(" ", reverseText);
+}
+
 
 
