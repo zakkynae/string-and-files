@@ -1,0 +1,15 @@
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\bin\Debug\net6.0\FirstTask.exe
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\bin\Debug\net6.0\FirstTask.deps.json
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\bin\Debug\net6.0\FirstTask.runtimeconfig.json
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\bin\Debug\net6.0\FirstTask.dll
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\bin\Debug\net6.0\FirstTask.pdb
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.csproj.AssemblyReference.cache
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.AssemblyInfoInputs.cache
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.AssemblyInfo.cs
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.csproj.CoreCompileInputs.cache
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.dll
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\refint\FirstTask.dll
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.pdb
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\FirstTask.genruntimeconfig.cache
+C:\Users\void_\Desktop\StringAndFiles\StringAndFiles\obj\Debug\net6.0\ref\FirstTask.dll

@@ -9,7 +9,7 @@ Console.WriteLine($"Число вхождений буквосочетания {
 Console.WriteLine($"Кол-во слов в предложении - {CountWords(phrase)}");
 Console.WriteLine($"Кол-во гласных в предложении - {CountVowels(phrase)}");
 Console.WriteLine($"Верно ли, что в предложении есть 5 подряд идущих одинаковых символов? {ContainsFiveLetters(phrase)}");
-Console.WriteLine($"Фраза в обратном порядке - {FlipText(phrase)}");
+Console.WriteLine($"Фраза в обратном порядке - {ReverseText(phrase)}");
 
 double CountPercent(string text, char symbol)
 {
@@ -49,7 +49,7 @@ string ContainsFiveLetters(string text)
     return count < 5 ? "Не правда" : "Правда";
 }
 
-string FlipText(string text)
+string ReverseText(string text)
 {
     var reverseText = text.Split(' ').Reverse();
     return String.Join(" ", reverseText);
