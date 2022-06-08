@@ -18,7 +18,7 @@ namespace FifthTask
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    continue;
+                   // continue;
                 }
             }
         }

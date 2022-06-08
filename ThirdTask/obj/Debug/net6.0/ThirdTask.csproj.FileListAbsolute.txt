@@ -13,3 +13,5 @@ C:\Users\void_\Desktop\StringAndFiles\ThirdTask\obj\Debug\net6.0\refint\ThirdTas
 C:\Users\void_\Desktop\StringAndFiles\ThirdTask\obj\Debug\net6.0\ThirdTask.pdb
 C:\Users\void_\Desktop\StringAndFiles\ThirdTask\obj\Debug\net6.0\ThirdTask.genruntimeconfig.cache
 C:\Users\void_\Desktop\StringAndFiles\ThirdTask\obj\Debug\net6.0\ref\ThirdTask.dll
+C:\Users\void_\Desktop\StringAndFiles\ThirdTask\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\void_\Desktop\StringAndFiles\ThirdTask\obj\Debug\net6.0\ThirdTask.csproj.CopyComplete

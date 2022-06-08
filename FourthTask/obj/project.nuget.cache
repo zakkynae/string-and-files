@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a1uJgu5lUVE3q7083gdcaCAGrjH4Ig/GNnMqz1aOYB80uahgX7G2CE0AnVS+F2VbZkdW50LSA1f0SdXDt7DFbQ==",
+  "dgSpecHash": "S7jzl6Fxv+i/w2Y9beOHaVVwhTpZ5PxsmZtP7oN9indTVVfZhbJ+G67J2A6bzsFO3UHl8rzSnPcZ9tAk+8n01w==",
   "success": true,
   "projectFilePath": "C:\\Users\\void_\\Desktop\\StringAndFiles\\FourthTask\\FourthTask.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\void_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\void_\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\void_\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

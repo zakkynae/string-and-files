@@ -11,6 +11,7 @@ Console.WriteLine($"Кол-во гласных в предложении - {Coun
 Console.WriteLine($"Верно ли, что в предложении есть 5 подряд идущих одинаковых символов? {ContainsFiveLetters(phrase)}");
 Console.WriteLine($"Фраза в обратном порядке - {ReverseText(phrase)}");
 
+#region Кол-во вхождения буквы 
 double CountPercent(string text, char symbol)
 {
     var count = 0;
@@ -22,12 +23,15 @@ double CountPercent(string text, char symbol)
     }
     return 100 * count / length;
 }
-
+#endregion
+#region Кол-во вхождений подстроки
 int CountOccurrences(string text, string subString) => (text.Length - text.ToLower().Replace(subString.ToLower(),
     "").Length) / subString.Length;
-
+#endregion
+#region Кол-во слов в предложении
 int CountWords(string text) => text.Split(' ').Length;
-
+#endregion
+#region Кол-во гласных букв
 int CountVowels(string text)
 {
     var vowelLetters = new List <char> { 'а', 'и', 'е', 'ё', 'о', 'у', 'ы', 'э', 'ю', 'я'};
@@ -36,7 +40,8 @@ int CountVowels(string text)
         if(vowelLetters.Contains(Char.ToLower(letter))) count++;
     return count;
 }
-
+#endregion
+#region Наличие 5 одинаковых символов
 string ContainsFiveLetters(string text)
 {
     var count = 1;
@@ -48,12 +53,13 @@ string ContainsFiveLetters(string text)
     }
     return count < 5 ? "Не правда" : "Правда";
 }
-
+#endregion
+#region Строка наоборот
 string ReverseText(string text)
 {
     var reverseText = text.Split(' ').Reverse();
     return String.Join(" ", reverseText);
 }
-
+#endregion
 
 
