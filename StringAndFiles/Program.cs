@@ -16,10 +16,12 @@ double CountPercent(string text, char symbol)
 {
     var count = 0;
     var length = 0;
+    text = text.ToLower();
+    symbol = char.ToLower(symbol);
     foreach (var letter in text)
     {
-        if(Char.ToLower(letter) == Char.ToLower(symbol)) count++;
-        if(Char.IsLetter(letter)) length++;
+        if(letter == symbol) count++;
+        if(char.IsLetter(letter)) length++;
     }
     return 100 * count / length;
 }
